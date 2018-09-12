@@ -1,0 +1,24 @@
+{
+  "name": "mclipsyncserver",
+  "version": "0.0.0",
+  "description": "Server for mClipSync Android Client",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Mohamed Khelif",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "clipboardy": "^1.2.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "nodemon": "^1.18.4"
+  }
+}
